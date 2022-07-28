@@ -11,6 +11,6 @@ resource "mongodbatlas_cluster" "cluster" {
   # Provider Settings "block"
   provider_name               = "TENANT"
   backing_provider_name       = "AWS"
-  provider_region_name        = "US_EAST_1"
+  provider_region_name        = var.region
   provider_instance_size_name = "M0"
 }
