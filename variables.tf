@@ -1,10 +1,10 @@
-variable "mongodbatlas_public_key" {
+variable "atlas_public_key" {
   type        = string
   description = "The public key for the MongoDB Atlas API"
   default     = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
 }
 
-variable "mongodbatlas_private_key" {
+variable "atlas_private_key" {
   type        = string
   description = "The private key for the MongoDB Atlas API"
   default     = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
