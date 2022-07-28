@@ -27,3 +27,9 @@ variable "region" {
   description = "Region name"
   default     = "US_EAST_1"
 }
+
+variable "cidr_block" {
+  type        = string
+  description = "The CIDR block to be added to the access list"
+  default     = "1.2.3.4/32"
+}
