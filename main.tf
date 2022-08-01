@@ -8,7 +8,7 @@ module "cluster" {
 }
 
 module "ipAccessList" {
-  source            = "./modules/ipAccesssList"
+  source            = "./modules/ipAccessList"
   project_id        = var.project_id
   cidr_block        = var.cidr_block
   atlas_public_key  = var.atlas_public_key
