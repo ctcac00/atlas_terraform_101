@@ -22,3 +22,10 @@ module "databaseAccessList" {
   atlas_private_key = var.atlas_private_key
 }
 
+module "search" {
+  source            = "./modules/search"
+  cluster_name      = var.cluster_name
+  project_id        = var.project_id
+  atlas_public_key  = var.atlas_public_key
+  atlas_private_key = var.atlas_private_key
+}
